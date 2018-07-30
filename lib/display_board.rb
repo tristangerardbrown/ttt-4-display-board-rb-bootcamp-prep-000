@@ -7,5 +7,5 @@ def display_board(board)
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
 
-it 'prints a board with o in the top left' do 
+it 'prints a board with o in the top left' do
   board = ["o", " ", " ", " ", " ", " ", " ", " ", " "]
