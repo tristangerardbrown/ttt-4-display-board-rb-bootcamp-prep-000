@@ -9,5 +9,8 @@ end
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 display_board(board)
 
-board = [" ", " ", " ", " ", "X", " ", " ", " ", " "]
+board = [" ", " ", " ", " ", "x", " ", " ", " ", " "]
+display_board(board)
+
+board = ["o", " ", " ", " ", "", " ", " ", " ", " "]
 display_board(board)
