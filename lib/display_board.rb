@@ -5,15 +5,3 @@ def display_board(board)
   puts "-----------"
   puts " #{board[6]} | #{board[7]} | #{board[8]} "
 end
-
-if board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
-display_board(board)
-end
-
-if board = [" ", " ", " ", " ", "x", " ", " ", " ", " "]
-display_board(board)
-end
-
-if board = ["o", " ", " ", " ", "", " ", " ", " ", " "]
-display_board(board)
-end
