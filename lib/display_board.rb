@@ -8,4 +8,4 @@ end
 
 board = [" ", " ", " ", " ", " ", " ", " ", " ", " "]
 
-display_board
+display_board(board)
